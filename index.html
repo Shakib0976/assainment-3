@@ -17,7 +17,7 @@
 <body class="sora-font ">
   
    <header class="bg-gradient-to-b from-[#FFFFFF]  to-[#EFEBE3] mb-32 ">
-    <section class="flex ">
+    <section class="flex md:mt-6  mt-2">
          <div class="navbar  mr-28">
         <div class="navbar-start">
           <div class="dropdown">
@@ -109,7 +109,7 @@
           </div>
           </div>
         <!-- card-2  -->
-        <div class="card bg-[#EFEBE3] w-96 shadow-xl p-8">
+        <div class="card bg-[#EFEBE3] w-96 shadow-xl ">
         <figure>
           <img class="bg-white rounded-full p-4"
             src="c2-assets/delivery.png"
@@ -138,14 +138,14 @@
      
     </section>
 
-    <section class="mb-32 bg-[#EFEBE3] ">
+    <section class="mb-32 bg-[#EFEBE3] pr-12 ">
       <h1 class="font-semibold text-4xl text-[#179800] md:ml-40 md:mb-12 ml-4 mb-8 pt-12 md:pt-32 ">Popular Products</h1>
 
       <div class=" pb-12 md:pb-32 flex justify-center flex-col md:flex-row items-center gap-5">
 
 
 
-           <div>
+           <div class="pl-12">
           <div class="p- card pr-8 pt-10 h-[402px] w-96 shadow-xl bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF]">
             <div class="card-body">
               <h2 class="card-title text-3xl text-white">30% off</h2>
@@ -161,7 +161,7 @@
           </div>
            </div>
            <!-- card-2  -->
-           <div  class="grid  grid-cols-2 md:grid-cols-3  md:gap-5 gap-2">
+           <div  class="grid  grid-cols-2 md:grid-cols-3  md:gap-5 gap-4  ">
             <div class="w-[190px] h-[94px] md:p-4 py-2 pl-2  card card-side bg-[#cbe9d7] shadow-xl  md:w-[275px] md:h-[118px]">
           
             <img class=" rounded-xl"
@@ -429,11 +429,13 @@
             <img src="c2-assets/vegetable-busket.png" alt="">
           </div>
           <div class=" md:space-y-9  space-y-4">
-            <h1 class="md:text-4xl text-xl font-semibold">Get Grocery News!</h1>
-            <p>Exclusive training tips, ticks, product deals and more.</p>
+            <div class="flex flex-col justify-center items-center md:items-start md:space-y-2">
+                <h1 class="md:text-4xl text-xl font-semibold text-[#179800] md:text-black">Get Grocery News!</h1>
+                <p>Exclusive training tips, ticks, product deals and more.</p>
+            </div>    
             <input type="email" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" />
             <br>
-            <button class="py-3 px-7  rounded-lg text-white bg-[#179800] border-none drop-shadow-xl">Subscribe</button>
+            <button class="py-3 px-7  ml-20 md:-ml-0 rounded-lg text-white bg-[#179800] border-none drop-shadow-xl">Subscribe</button>
           </div>
         </div>
 
